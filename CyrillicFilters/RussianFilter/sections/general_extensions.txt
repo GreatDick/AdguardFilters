@@ -136,8 +136,6 @@ scrin.org#%#//scriptlet("abort-on-property-read", "windowprops")
 scrin.org#%#//scriptlet('remove-attr', 'onclick', '#view-full-image > a[target="_blank"][onclick]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65645
 4rl.ru#%#//scriptlet("prevent-window-open")
-! playground.ru - clickunder
-playground.ru#%#//scriptlet('remove-attr', 'data-settings', 'body[id="userNotAuthorized"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64994
 720video.me#%#//scriptlet("prevent-window-open")
 ! audit-it.ru - ads replacement
@@ -202,8 +200,6 @@ cdntvpotok.com,cdnpotok.com,only-tv.org,oneliketv.com#%#//scriptlet("prevent-win
 hochu.tv#%#//scriptlet("abort-on-property-read", "ABN")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98275
 ddgroupclub.win#%#//scriptlet("abort-current-inline-script", "Math.ceil", "x.charCodeAt")
-! https://github.com/AdguardTeam/AdguardFilters/issues/50821
-kinokong.pro#%#//scriptlet("abort-on-property-read", "ABN")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56094
 zloekino.su,zloekino.ru#%#//scriptlet("prevent-window-open", "stargate")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49307
@@ -570,8 +566,6 @@ intex-press.by#$#.main { padding-top: 45px!important; }
 intex-press.by#$#.index-page { padding-top: 45px!important; }
 intex-press.by#$#.section-page { padding-top: 45px!important; }
 !#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/97393
-kinokong.pro#$##wrapper { margin-top: 64px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98812
 73online.ru#$#.head-b { margin: 0 auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98284
@@ -1344,8 +1338,6 @@ gameguru.ru#$#body { padding-top: 0!important; background: none!important; }
 game2day.org#$#body > div.container { margin-top: 150px !important; }
 ! kinotochka.net - удаление отступа сверху
 kinotochka.net#$#.center-box2 { margin-top: 0!important; }
-! fanserials.tv - удаление отступа сверху
-fanserials.tv#$#.serial-page { margin: 0!important; }
 ! csgo-v.ru - удаление брендированного фона, отступа сверху
 csgo-v.ru#$##wrapper > nav[class="nav-container group"][id="nav-header"]{ margin-top: 0!important; }
 csgo-v.ru#$#body{ background: #0a0a0a!important; }
@@ -1491,8 +1483,6 @@ valetudo.ru#$#body { background-image: none!important; cursor: default!important
 game-bomb.ucoz.ru#$#body {background: none!important;}
 ! roem.ru - удаление отступа сверху
 roem.ru#$#body.branded {padding-top: 5px!important;}
-! playground.ru - удаление брендированного фона
-playground.ru#$##foundationWrapper { background: #373737 !important; padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62914
 province.ru#$#.flexbannergroup { visibility: hidden !important; height: 1px !important; }
 province.ru#$#body div#wrapper { margin-top: -175px !important; }

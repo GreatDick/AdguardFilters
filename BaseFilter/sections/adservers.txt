@@ -9,10 +9,78 @@
 !
 !
 !
+||signamentswithded.com^
+||atethebenefitsshe.com^
+||d3nz96k4xfpkvu.cloudfront.net^
+||rtoukfareputfe.info^$all
+||boqmjxtkwn.com^
+||track.starmobmedia.com^
+||smart1adserver.com^
+||polisnetwork.io^$third-party
+||ktikpuruxasq.com^
+||tpfgcdelscgfatf.com^
+||oaltusoamp.com^
+||htudbybel.com^
+||ymtmwjgsjsv.com^
+||ptoupisso.net^
+||xbuycgcae.com^
+||whefookak.net^
+||maxvaluead.com^
+||reacheffecti.work^
+||wagenerfevers.com^
+||fpadserver.com^
+||bogus-disk.com^
+||jeoawamjbbzjy.top^
+||gleempithep.com^
+||newmownbuttes.com^
+||awrnkojhomxvqi.com^
+||uvaugnutseeh.com^
+||mlldrlujqg.com^
+||kaxjtkvgo.com^
+||whouvoart.com^
+||hksnu.com^
+||cndynza.click^
+||185.149.120.173^
+185.149.120.173$network
+||thauckeesse.net^
+||lixxqkaqaragxu.com^
+||kurjutodbxca.com^
+||ywmvppnlwwxkgt.com^
+||chouchicky.com^
+/^139\.45\.197\.2(4[0-9]|5[0-4]):/$network
+/^139\.45\.197\.2(4[0-9]|5[0-4]):/
+||crewedbangup.com^
+||prwfwayui.com^
+||pteegostie.com^
+||frutwafiwah.com^
+||maya15.site^
+||ljr3.site^
+||lcarlbvwr.com^
+||thuckautiru.com^
+||metogthr.com^$all
+||rdtracer.com^$all
+||blogostock.com^$all
+||clumsyshare.com^$all
+||omjqukadtolg.com^
+||piggiepepo.xyz^
+||austere-familiar.com^
+||syndicatedsearch.goog^
+||duxlveokumpmd.com^
+||stoogouy.net^
+||equipmentapes.com^
+||vg876yuj.click^$all
+||lmj8i.pro^$all
+||ytru4.pro^$all
+||pub-3d10bad2840341eaa1c7e39b09958b46.r2.dev^$third-party
+||cdn.kelpo.cloud^
+||paidlemirkily.com^
+||jixffuwhon.com^
+||hbwrapper.com^$third-party
 ||femqrjwnk.xyz^
 ||routowoashie.xyz^
 serve.yourporngod.com^
 serve.everydayporn.co^
+serve.bussyhunter.com^
 ||xlvul.ajscdn.com^
 ||ahmar2four.xyz^
 ||ser678uikl.xyz^$all
@@ -1156,9 +1224,14 @@ serve.everydayporn.co^
 ||Kmspico-official.org^$all
 ||getintopc.today^$all
 !
+! ClickAdu
+/^94\.242\.247\.(2[0-9]|3[0-2]):/$network
+/^94\.242\.247\.(2[0-9]|3[0-2]):/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176199
 ! https://qs.longestsundays.com/rMh52RopBz1/kmERX
 ! For apps and DNS
+/^23\.109\.170\.(18[7-9]|19[0-2])$/$network
+/^23\.109\.170\.(18[7-9]|19[0-2])$/
 /^23\.109\.73\.\d{3}/$network
 /^188\.42\.84\.\d{1,3}/$network
 /^23\.109\.73\.\d{3}/
@@ -1235,6 +1308,9 @@ serve.everydayporn.co^
 ! To fix the issue with the CNAME trackers, add problematic domains here:
 ! https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/exclusions.txt
 !
+! Adocean : adocean.pl disguised advertising networks
+!#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adocean.txt
+!
 ! AdSpyglass : 0i0i0i0.com disguised advertising networks
 ||dappaa.site^
 ||spinna.xyz^
@@ -1253,6 +1329,9 @@ serve.everydayporn.co^
 ||tjaard11.xyz^
 ||dappab.site^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adspyglass.txt
+!
+! Aquaplatform : aquaplatform.com disguised advertising networks
+!#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/aquaplatform.txt
 !
 ! ahacdn.me : cdn18685953.ahacdn.me disguised advertising networks
 ||freshalldaynews.com^
@@ -1319,6 +1398,9 @@ serve.everydayporn.co^
 ||exoclick.com^
 ||bizonads-ssp.com^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/namesilo.txt
+!
+! nonli.com : nonli.com disguised advertising networks
+!#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/nonli_com.txt
 !
 ! PopCash : popcashjs.b-cdn.net disguised advertising networks
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/popcash.txt
@@ -1482,6 +1564,8 @@ serve.everydayporn.co^
 ||onemediawork.com^
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/webair.txt
 !
+! Rule for detecting hidden trackers when the main domain cannot be blocked.
+||d162h6x3rxav67.cloudfront.net^$third-party
 !
 ! NOTE: CNAME disguised advertisin networks end ⬆️
 ! !SECTION: CNAME disguised advertising networks

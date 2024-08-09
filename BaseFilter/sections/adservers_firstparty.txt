@@ -7,7 +7,9 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
-||srtb.msn.cn^
+||reklama.shinden.eu^
+||ad.kisstvshow.es^
+||tapi.apkpure.net^
 ||advertising-cdn.dpgmedia.cloud^
 ||ad.twinrdengine.com^
 ||d2lg0swrp15nsj.cloudfront.net^

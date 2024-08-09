@@ -11,6 +11,11 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.cookiesBackground
+###tfm_dsgvo_disclaimer
+###cconsent-bar
+##.ets_cookie_banber_block
+##.cli-popupbar-overlay
 ##.seopress-user-consent
 ###buzzblogpro-cookie-banner
 ##.navbar-privacy
@@ -1575,6 +1580,7 @@
 ##.sets-cookie
 ##.sgsCookies
 ##.sh-cookie-confirmation
+##.sh-page-notice
 ##.site-cookie-panel
 ##.site-cookies
 ##.storm-cookie
@@ -1628,6 +1634,9 @@
 !
 ! SECTION: Cookies - General URL
 !
+||cdn.ekm.net/ekmps/assets/js/shop-front/euCookieBarV2.js
+||service-cmp.com^$third-party
+||consent.nitrocnct.com^
 ||ucookie.app^$third-party
 ||collector.appconsent.io^
 ||cdn.cookiesuit.com^$third-party

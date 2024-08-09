@@ -22,6 +22,7 @@
 ##.tsoft-push--in-notification
 ##.cleverpush-bell
 !
+.site/?te=$script
 .biz/?te=$script
 ||sdk.chirpyweb.com^$third-party
 /larapush_script_
@@ -58,6 +59,8 @@
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||qushad.com^$third-party
+||quickalert.org^$third-party
 ||ziwelatum.com^
 ||adpush.com.tr^$third-party
 ||pushly.net^

@@ -6,12 +6,61 @@
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-10267760
+||audible.$removeparam=ref
+! https://github.com/AdguardTeam/AdguardFilters/issues/185385
+||camcam.cc^$removeparam=ref
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-10238857
+ref=producthunt^$removeparam=ref
+! igromania.ru
+||igromania.ru^$removeparam=from
+! https://github.com/AdguardTeam/AdguardFilters/issues/185179
+||fikfapcams.com^$removeparam=referrer
+||fikfapcams.com^$removeparam=realDomain
+||fikfapcams.com^$removeparam=affiliateId
+||go.xliirdr.com/?*&targetDomain=$removeparam=p
+||go.xliirdr.com/?*&targetDomain=$removeparam=userId
+||go.xliirdr.com/?*&targetDomain=$removeparam=campaignId
+! https://github.com/AdguardTeam/AdguardFilters/issues/185036
+||windscribe.com^$removeparam=pcpid
+||windscribe.com^$removeparam=temp_session
+! https://github.com/AdguardTeam/AdguardFilters/issues/185037
+||hepsiburada.com^$removeparam=wt_ds
+||hepsiburada.com^$removeparam=url_src
+! https://github.com/AdguardTeam/AdguardFilters/issues/184903
+||samsung.com^$removeparam=cid
+! https://www.nikkansports.com/premium/baseball/news/202407140001516.html?nsgid=(random char)
+||nikkansports.com^$removeparam=nsgid
+! https://github.com/AdguardTeam/AdguardFilters/issues/184837
+||game.hiroba.dpoint.docomo.ne.jp^$removeparam=mks_referer_event
+! https://news.yahoo.co.jp/articles/ca5b45b1e27e871071e6fd94be02f630884371c8?source=sns&dv=pc&mid=other&date=20240728&ctg=it&bt=tw_up
+||news.yahoo.co.jp^$removeparam=source
+||news.yahoo.co.jp^$removeparam=dv
+||news.yahoo.co.jp^$removeparam=mid
+||news.yahoo.co.jp^$removeparam=date
+||news.yahoo.co.jp^$removeparam=ctg
+||news.yahoo.co.jp^$removeparam=bt
+! lumosvpn.com promo
+||lumosvpn.com/?cep=$removeparam
+! https://github.com/AdguardTeam/AdguardFilters/issues/184386
+||shop.adidas.jp^$removeparam=source_caller
+||shop.adidas.jp^$removeparam=shortlink
+! https://github.com/AdguardTeam/AdguardFilters/issues/184272
+||daohang.qq.com^$removeparam=fr
+! https://github.com/AdguardTeam/AdguardFilters/issues/183694
+||hoyoverse.com/branding$removeparam
+! https://github.com/AdguardTeam/AdguardFilters/issues/183361
+||cloud.baidu.com^$removeparam=from
+||qianfan.cloud.baidu.com^$removeparam=track
+! https://github.com/AdguardTeam/AdguardFilters/issues/183278
+||hepsiburada.com^$removeparam=wt_inf
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183138
 ||qjweb.jp^$removeparam=from
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-9964278
 ||sport.sky.it^$removeparam=social
 ||sport.sky.it^$removeparam=share_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182791
+||tokopedia.com^$removeparam=src
 ||tokopedia.com^$removeparam=extParam
 ||tokopedia.com^$removeparam=refined
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182681
@@ -288,9 +337,12 @@ $removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com
 ! VKontakte
 $removeparam=trackcode,domain=vk.com|vk.ru
 $removeparam=recom,domain=vk.com|vk.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/166382
+! vkplay.ru
 ||vkplay.ru$removeparam=_1ld
 ||vkplay.ru$removeparam=_1lp
+||vkplay.ru^$removeparam=mt_adset
+||vkplay.ru^$removeparam=mt_sub1
+||vkplay.ru^$removeparam=mt_sub2
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166050
 ||incogni.com^$removeparam=transaction_id
 ||incogni.com^$removeparam=offer_id
@@ -331,6 +383,7 @@ keepstreams.com^$removeparam=downloadmode
 ||streamfab.jp^$removeparam=c_wh
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164060#issuecomment-1779661046
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111997
+||ozon.ru^$removeparam=asb
 ||ozon.ru^$removeparam=advert
 ||ozon.ru^$removeparam=asb2
 ||ozon.ru^$removeparam=avtc
@@ -339,7 +392,6 @@ keepstreams.com^$removeparam=downloadmode
 ||ozon.ru^$removeparam=from_url
 ||ozon.ru^$removeparam=from_sku
 ||ozon.ru^$removeparam=keywords
-||ozon.ru^$removeparam=oos_search
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164394
 ||stvkr.com/v*/click-$removeparam=sa
 ||stvkr.com/v*/click-$removeparam=rfr
@@ -932,13 +984,16 @@ $removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 ||thumbs4.redgifs.com/*&for=$image,removeparam=for
 ! politica.com.ua - links click counter
 ||politica.com.ua^$removeparam=isUser
+! https://github.com/AdguardTeam/AdguardFilters/issues/184902
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164592
-! https://github.com/AdguardTeam/AdguardFilters/issues/131139
-$removeparam=sp_atk,domain=shopee.ph|shopee.co.th
-$removeparam=xptdk,domain=shopee.ph|shopee.co.th
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144898
-||shopee.ph^$removeparam=stm_medium
-||shopee.ph^$removeparam=stm_source
+! https://github.com/AdguardTeam/AdguardFilters/issues/131139
+$removeparam=sp_atk,domain=shopee.ph|shopee.co.th|shopee.co.id
+$removeparam=xptdk,domain=shopee.ph|shopee.co.th|shopee.co.id
+$removeparam=publish_id,domain=shopee.ph|shopee.co.th|shopee.co.id
+$removeparam=promotionId,domain=shopee.ph|shopee.co.th|shopee.co.id
+$removeparam=stm_medium,domain=shopee.ph|shopee.co.th|shopee.co.id
+$removeparam=stm_source,domain=shopee.ph|shopee.co.th|shopee.co.id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131093
 ||adguard.$removeparam=clid
 ! Cognativex
@@ -985,6 +1040,8 @@ $removeparam=xptdk,domain=shopee.ph|shopee.co.th
 ||nationalgeographic.com^$removeparam=utm_rd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128339
 ||ficbook.net^$removeparam=/premiumVisit|utm_compaign/
+||ficbook.com^$removeparam=/premiumVisit|utm_compaign/
+||ficbook.me^$removeparam=/premiumVisit|utm_compaign/
 ! stripchat.com
 ||stripchat.com^$removeparam=campaignId
 ||stripchat.com^$removeparam=sourceId
@@ -1176,6 +1233,7 @@ $removeparam=ref,domain=jin115.com|bipblog.com|animember.net|sbbit.jp|blog.lived
 ||wizcase.com/?$removeparam=vid
 ||microsoft.msafflnk.net^$removeparam=sharedid
 ||microsoft.msafflnk.net^$removeparam=/^subid/
+||ojrq.net/p/$removeparam=tpsync
 ||ojrq.net/p/$removeparam=cid
 ||click.linksynergy.com/fs-bin/click?id=$removeparam=u1
 ||click.linksynergy.com/fs-bin/click?id=$removeparam=u2
@@ -1501,16 +1559,25 @@ $removeparam=igshid,domain=instagram.com|threads.net
 ! NicoNico (nicovideo.jp)
 ! Keep subdomain
 $removeparam=from,domain=anime.nicovideo.jp|dic.nicovideo.jp
-||commons.nicovideo.jp^$removeparam=transit_from
+||nicovideo.jp^$removeparam=transition_id
+||nicovideo.jp^$removeparam=transition_type
+||nicovideo.jp^$removeparam=rf
+||nicovideo.jp^$removeparam=rp
+||nicovideo.jp^$removeparam=ra
+||nicovideo.jp^$removeparam=rd
+||nicovideo.jp^$removeparam=transit_from
 ||live.nicovideo.jp^$removeparam=ch_anime_ref
 ||seiga.nicovideo.jp^$removeparam=track
+||manga.nicovideo.jp^$removeparam=track
 ||sp.nicovideo.jp^$removeparam=ss_id
 ||sp.nicovideo.jp^$removeparam=ss_pos
 ||sp.nicovideo.jp^$removeparam=cp_in
+||sp.nicovideo.jp^$removeparam=cnt_transit
 ||nicovideo.jp^$removeparam=news_ref
 ||nicovideo.jp^$removeparam=cmnhd_ref
 ||nicovideo.jp^$removeparam=ref
 ||nicoft.io^$removeparam=cmnhd_ref
+||nicoebook.jp^$removeparam=track
 ! Naver (naver.com) - tracking parameter
 ! https://github.com/AdguardTeam/AdguardFilters/pull/89838
 ||search.naver.com/search.naver$removeparam=tqi

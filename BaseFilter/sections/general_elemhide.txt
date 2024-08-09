@@ -7,6 +7,10 @@
 !
 !
 !+ NOT_OPTIMIZED
+###ad_middle
+!+ NOT_OPTIMIZED
+##.ads-cont
+!+ NOT_OPTIMIZED
 ##.adsense_block
 !+ NOT_OPTIMIZED
 ##.banner-player
@@ -321,6 +325,11 @@
 !+ NOT_OPTIMIZED
 ##.ContentAd
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185471
+! Popups in the video player - streamwish.com
+! Related to #%#//scriptlet('abort-on-property-read', '__Y')
+##body > div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
+!
 ! Ads on many porn sites
 ##.full-ave-pl
 ##.wps-player__happy-inside
@@ -334,6 +343,8 @@
 ! Popular ad on streaming services
 ##button[data-openuri="|BTN_URL|"]
 !
+##.player-section__ad-b
+##.video.ad-w
 ##.advMasthead
 ##iframe[src^="https://mmmdn.net/"]
 ##body .top-advert

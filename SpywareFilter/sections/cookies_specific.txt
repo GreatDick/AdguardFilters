@@ -6,6 +6,19 @@
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185426
+||cyberghostvpn.com^$cookie=cg_campaign
+||cyberghostvpn.com^$cookie=cg_clickid
+||cyberghostvpn.com^$cookie=visitor_date
+||cyberghostvpn.com^$cookie=visitor_type
+! https://github.com/AdguardTeam/AdguardFilters/issues/184012
+||joinrs.com^$cookie=TRACKING_CLIENT_TOKEN
+||joinrs.com^$cookie=TRACKING_SESSION_TOKEN
+! https://github.com/AdguardTeam/AdguardFilters/issues/183505
+||goldapple.ru^$cookie=advcake_track_id
+||goldapple.ru^$cookie=digi-analytics-sessionId
+! manchestereveningnews.co.uk
+||manchestereveningnews.co.uk^$cookie=TM_ga_clientId
 ! faz.net - adobe counter
 ||faz.net^$cookie=adobe_pageViewCount
 ! vgwort.de counting cookie

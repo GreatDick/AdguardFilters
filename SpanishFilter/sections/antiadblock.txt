@@ -9,6 +9,21 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185569
+modescanlator.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=modescanlator.net
+! https://github.com/uBlockOrigin/uAssets/issues/24632
+cinelatino.net#%#//scriptlet('set-constant', 'checkAdBlock', 'noopFunc')
+cinelatino.net#@#.ad-space
+cinelatino.net#@#.ad-unit
+cinelatino.net#@#.ad-zone
+cinelatino.net#@#.banner-ads
+cinelatino.net#@#.banner_ads
+cinelatino.net#@#div[id^="div-gpt-"]
+cinelatino.net#@#[id^="div-gpt-ad"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/183544
+@@||www3.doubleclick.net/|$domain=acortalink.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182228
 r7.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb)
@@ -230,11 +245,12 @@ animeszone.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 megacanaisonline.me##div[id][class^="popup"][class$="wrap"][style]
 megacanaisonline.me#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034
-todoandroid.live,gadgetzona.net,qwanturankpro.com,desbloquea.me,mega-enlace.com#%#//scriptlet('prevent-fetch', 'method:HEAD')
+acortados.com,acortalink.me#%#//scriptlet('prevent-fetch', '/ads-twitter\.com|pagead|googleads|doubleclick/', '', 'opaque')
+acortados.com,todoandroid.live,gadgetzona.net,qwanturankpro.com,desbloquea.me,mega-enlace.com#%#//scriptlet('prevent-fetch', 'method:HEAD')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-@@||static.ads-twitter.com/uwt.js$xmlhttprequest,domain=mega-enlace.com|desbloquea.me|qwanturankpro.com
-@@||pagead2.googlesyndication.com/|$xmlhttprequest,domain=mega-enlace.com|desbloquea.me|qwanturankpro.com
-@@||googleadapis.l.google.com/|$xmlhttprequest,domain=mega-enlace.com|desbloquea.me|qwanturankpro.com
+@@||static.ads-twitter.com/uwt.js$xmlhttprequest,domain=mega-enlace.com|desbloquea.me|qwanturankpro.com|acortados.com
+@@||pagead2.googlesyndication.com/|$xmlhttprequest,domain=mega-enlace.com|desbloquea.me|qwanturankpro.com|acortados.com
+@@||googleadapis.l.google.com/|$xmlhttprequest,domain=mega-enlace.com|desbloquea.me|qwanturankpro.com|acortados.com
 !#endif
 ! https://github.com/uBlockOrigin/uAssets/issues/19312
 softwareany.net#%#//scriptlet('prevent-addEventListener', 'load', 'detect-modal')
@@ -732,9 +748,23 @@ seriesretro.com#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80724
 audiotools.in##div[id^="chp_ads_blocker-"]
 audiotools.in#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'blocker_detector')
+! https://github.com/AdguardTeam/AdguardFilters/issues/184038
+/asb1.js$domain=anitube.vip|hinatasoul.com
+anitube.vip,hinatasoul.com#%#//scriptlet('set-constant', 'detectedAdblock', 'noopFunc')
+anitube.vip,hinatasoul.com#%#//scriptlet('adjust-setTimeout', 'asdFHqwe', '*', '0.001')
+anitube.vip,hinatasoul.com#%#//scriptlet('prevent-xhr', '/pagead2\.googlesyndication\.com|outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/')
+anitube.vip,hinatasoul.com#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/')
+! Scriptlets are injected too late - https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2855
+! and $redirect rule doesn't work because responseURL is checked and it doesn't return original URL
+! TODO: change hint to PLATFORM(ios, ext_android_cb, ext_safari) when issue will be fixed
+!+ NOT_PLATFORM(windows, mac, android, ext_ublock)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||cdn.adligature.com/work.ink/prod/rules.css$domain=anitube.vip|hinatasoul.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157756
 ! Link from anitube.vip
 dicasgostosas.com#%#//scriptlet('prevent-setTimeout', 'hasAdblock')
+dicasgostosas.com#%#//scriptlet('prevent-xhr', 'popads.net')
 dicasgostosas.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dicasgostosas.com
