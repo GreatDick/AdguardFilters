@@ -8,7 +8,9 @@ sites:
   Turkifsaclub (turkifsaclub*.sbs):
     force_search_ahead: true
     last_known_mirror: turkifsaclub130.sbs
-    success_since: 2026-05-25
+    failed_since: 2026-07-03 15:12
+    failed_days: 0
+    potentially_dead: true
   Jmanga (jmanga.*):
     last_known_mirror: jmanga.casa
     success_since: 2026-06-26 13:44
@@ -78,11 +80,11 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
-    last_known_mirror: sadeceifsa13.icu
-    success_since: 2026-07-02 01:46
+    last_known_mirror: sadeceifsa14.icu
+    success_since: 2026-07-03 15:12
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa47.icu
-    success_since: 2026-07-02 01:46
+    last_known_mirror: hdturkifsa48.icu
+    success_since: 2026-07-03 15:12
   Arsivim (arsivim*.xyz):
     last_known_mirror: arsivim.xyz
     success_since: 2026-06-29 19:36
