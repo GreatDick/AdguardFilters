@@ -3,11 +3,13 @@ sites:
     initial_domain: https://vegamovies.hot/?re=vg
     last_known_mirror: vegamovies.navy
     failed_since: 2026-07-07 19:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
-    success_since: 2026-07-07 06:44
+    failed_since: 2026-07-09 10:26
+    failed_days: 0
+    potentially_dead: true
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe615.sbs
     success_since: 2026-07-04 19:31
@@ -28,7 +30,7 @@ sites:
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac96.cfd
     failed_since: 2026-07-07 19:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Piabet TV (piabettv*.live):
     force_search_ahead: true
@@ -41,7 +43,9 @@ sites:
     probe_text:
       - /jwplayer.js
     last_known_mirror: pamelachangemission.com
-    success_since: 2026-07-07 06:44
+    failed_since: 2026-07-09 10:26
+    failed_days: 0
+    potentially_dead: true
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
