@@ -4844,7 +4844,7 @@ turkkizlar31.com,turkkizlar32.com,turkkizlar33.com,turkkizlar34.com,turkkizlar35
 ||cimcime*.com/wp-content/uploads/*.gif
 [$domain=/cimcime\d+\.\w+$/]###ads-inside-main
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-cimcime134.live###ads-inside-main
+cimcime135.live###ads-inside-main
 !#endif
 !
 ! Frequently changed domains: dahahizli*.com
