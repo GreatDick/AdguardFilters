@@ -25,9 +25,9 @@ sites:
     last_known_mirror: hdfilmcehennemi27.org
     success_since: 2026-06-21 01:54
   Patronmac (patronmac*.cfd):
-    last_known_mirror: patronmac99.cfd
+    last_known_mirror: patronmac100.cfd
     accept_antibot: true
-    success_since: 2026-07-11 01:37
+    success_since: 2026-07-11 14:22
   Piabet TV (piabettv*.live):
     force_search_ahead: true
     last_known_mirror: piabettv18.live
@@ -91,10 +91,14 @@ sites:
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
     last_known_mirror: sadeceifsa16.icu
-    success_since: 2026-07-11 01:37
+    failed_since: 2026-07-11 14:22
+    failed_days: 0
+    potentially_dead: true
   Hdturkifsa (hdturkifsa*.icu):
     last_known_mirror: hdturkifsa49.icu
-    success_since: 2026-07-11 01:37
+    failed_since: 2026-07-11 14:22
+    failed_days: 0
+    potentially_dead: true
   Cimcime:
     last_known_mirror: cimcime135.live
     success_since: 2026-07-10 13:41
@@ -104,7 +108,7 @@ sites:
   PatronLive / Patronspor (patronlive*.cfd):
     last_known_mirror: patronlive40.cfd
     failed_since: 2026-07-11 01:37
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Inattvizle:
     initial_domain: inatgiris.com
