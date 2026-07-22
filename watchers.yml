@@ -17,7 +17,9 @@ sites:
     success_since: 2026-07-21 01:37
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe615.sbs
-    success_since: 2026-07-04 19:31
+    failed_since: 2026-07-22 04:17
+    failed_days: 0
+    potentially_dead: true
   Turkifsaclub (turkifsaclub*.sbs):
     force_search_ahead: true
     last_known_mirror: turkifsaclub130.sbs
@@ -110,10 +112,10 @@ sites:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
   PatronGol / Patronspor (patrongol*.cfd):
-    last_known_mirror: patrongol32.cfd
+    last_known_mirror: patrongol33.cfd
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-20 09:28
+    success_since: 2026-07-22 04:17
   PatronLive / Patronspor (patronlive*.cfd):
     last_known_mirror: patronlive48.cfd
     accept_antibot: true
@@ -139,7 +141,9 @@ sites:
   Dizipal (dizipal*.com):
     # Original. Fake used old domain names behind by ~400 domains
     last_known_mirror: dizipal2088.com
-    success_since: 2026-07-21 19:33
+    failed_since: 2026-07-22 04:17
+    failed_days: 0
+    potentially_dead: true
   DiziPAL (dizi-pal*.com):
     # Fake
     last_known_mirror: dizi-pal16.com
@@ -163,7 +167,9 @@ sites:
     success_since: 2026-07-17 09:30
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
-    success_since: 2026-07-20 19:34
+    failed_since: 2026-07-22 04:17
+    failed_days: 0
+    potentially_dead: true
   Amatorifsa (amatorifsa*.com):
     last_known_mirror: amatorifsa36.com
     success_since: 2026-07-21 19:33
