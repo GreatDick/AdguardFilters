@@ -163,7 +163,9 @@ sites:
     success_since: 2026-07-17 09:30
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
-    success_since: 2026-07-20 19:34
+    failed_since: 2026-07-22 09:27
+    failed_days: 0
+    potentially_dead: true
   Amatorifsa (amatorifsa*.com):
     last_known_mirror: amatorifsa36.com
     success_since: 2026-07-21 19:33
