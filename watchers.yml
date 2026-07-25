@@ -26,8 +26,8 @@ sites:
     last_known_mirror: jmanga.bike
     success_since: 2026-07-16 07:44
   iNat TV (inattv*.xyz):
-    last_known_mirror: inattv1318.xyz
-    success_since: 2026-07-15 01:36
+    last_known_mirror: inattv1319.xyz
+    success_since: 2026-07-25 04:11
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
@@ -98,14 +98,14 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
-    last_known_mirror: sadeceifsa10.com
-    success_since: 2026-07-19 01:37
+    last_known_mirror: sadeceifsa11.com
+    success_since: 2026-07-25 04:11
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa43.com
-    success_since: 2026-07-21 01:37
+    last_known_mirror: hdturkifsa44.com
+    success_since: 2026-07-25 04:11
   Cimcime:
-    last_known_mirror: cimcime141.live
-    success_since: 2026-07-22 14:04
+    last_known_mirror: cimcime143.live
+    success_since: 2026-07-25 04:11
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
@@ -164,13 +164,13 @@ sites:
     last_known_mirror: sultansportv0789.com
     success_since: 2026-07-17 09:30
   Yavasgir (yavasgir*.live):
-    last_known_mirror: yavasgir137.live
+    last_known_mirror: yavasgir138.live
     accept_antibot: true
-    success_since: 2026-07-22 14:04
+    success_since: 2026-07-25 04:11
   Amatorifsa (amatorifsa*.com):
-    last_known_mirror: amatorifsa36.com
-    success_since: 2026-07-21 19:33
+    last_known_mirror: amatorifsa37.com
+    success_since: 2026-07-25 04:11
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime141.live
+    last_known_mirror: cimcime143.live
     accept_antibot: true
-    success_since: 2026-07-23 08:53
+    success_since: 2026-07-25 04:11
