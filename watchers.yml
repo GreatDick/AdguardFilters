@@ -14,7 +14,9 @@ sites:
     initial_domain: https://vegamovies.hot/?re=vg
     accept_antibot: true
     last_known_mirror: vegamovies.navy
-    success_since: 2026-07-10 15:30
+    failed_since: 2026-07-28 09:36
+    failed_days: 0
+    potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
     success_since: 2026-07-21 01:37
@@ -150,7 +152,7 @@ sites:
     last_known_mirror: dizi-pal16.com
     accept_antibot: true
     failed_since: 2026-07-27 01:39
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   XyzSports (xyzsports-*.xyz):
     last_known_mirror: xyzsports-53b16cb40a.xyz
