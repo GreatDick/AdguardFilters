@@ -10,7 +10,7 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 4
+    failed_days: 5
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
