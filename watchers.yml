@@ -19,7 +19,7 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 15
+    failed_days: 16
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
@@ -124,9 +124,9 @@ sites:
     last_known_mirror: hdturkifsa59.com
     success_since: 2026-08-12 01:35
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime149.live
+    last_known_mirror: cimcime150.live
     accept_antibot: true
-    success_since: 2026-08-12 01:35
+    success_since: 2026-08-12 14:21
   MaçtanMaça:
     last_known_mirror: mactanmaca655.sbs
     success_since: 2026-08-08 19:14
@@ -179,7 +179,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 9
+    failed_days: 10
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -216,7 +216,7 @@ sites:
     pattern_changed: true
     non_pattern_mirror: www.google.com
     failed_since: 2026-08-10 07:35
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
@@ -291,8 +291,13 @@ sites:
     success_since: 2026-08-10 19:24
   Rtally link (rtally.link):
     initial_domain: rtally.xyz
-    last_known_mirror: rtally.link
+    last_known_mirror: www.rtally.xyz
+    success_since: 2026-08-12 14:21
   Gmatv (gmatv*.live):
     last_known_mirror: gmatv51.live
+    failed_since: 2026-08-12 14:21
+    failed_days: 0
+    potentially_dead: true
   Trgooltv (trgooltv*.top):
     last_known_mirror: trgooltv69.top
+    success_since: 2026-08-12 14:21
