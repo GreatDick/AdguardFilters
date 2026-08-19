@@ -5,9 +5,7 @@ sites:
     success_since: 2026-08-04 21:50
   VidFast (vidfast.*):
     last_known_mirror: vidfast.vc
-    failed_since: 2026-08-19 07:25
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-19 07:39
   Cineby (cineby.*):
     initial_domain: www.cineby.app
     last_known_mirror: www.cineby.at
@@ -164,9 +162,9 @@ sites:
     accept_antibot: true
     success_since: 2026-08-13 01:36
   Sporcafe (sporcafe*.com):
-    last_known_mirror: sporcafe75.top
+    last_known_mirror: sporcafe76.top
     accept_antibot: true
-    success_since: 2026-08-19 07:25
+    success_since: 2026-08-19 07:39
   Askimyavas (askimyavas*.live):
     initial_domain: askimyavas.com
     last_known_mirror: askimyavas177.live
