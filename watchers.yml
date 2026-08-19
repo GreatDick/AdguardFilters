@@ -5,9 +5,7 @@ sites:
     success_since: 2026-08-04 21:50
   VidFast (vidfast.*):
     last_known_mirror: vidfast.vc
-    failed_since: 2026-08-19 07:25
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-19 19:32
   Cineby (cineby.*):
     initial_domain: www.cineby.app
     last_known_mirror: www.cineby.at
@@ -49,15 +47,17 @@ sites:
   Piabet TV (piabettv*.live):
     force_search_ahead: true
     last_known_mirror: piabettv18.live
-    success_since: 2026-05-25
+    failed_since: 2026-08-19 19:32
+    failed_days: 0
+    potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
     skip_text_allow:
       - Redirecting...
     probe_text:
       - /jwplayer.js
-    last_known_mirror: rebeccapracticeloss.com
-    success_since: 2026-08-16 13:15
+    last_known_mirror: johnbeyondnation.com
+    success_since: 2026-08-19 19:32
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
@@ -164,9 +164,9 @@ sites:
     accept_antibot: true
     success_since: 2026-08-13 01:36
   Sporcafe (sporcafe*.com):
-    last_known_mirror: sporcafe75.top
+    last_known_mirror: sporcafe76.top
     accept_antibot: true
-    success_since: 2026-08-19 07:25
+    success_since: 2026-08-19 19:32
   Askimyavas (askimyavas*.live):
     initial_domain: askimyavas.com
     last_known_mirror: askimyavas177.live
@@ -175,7 +175,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 16
+    failed_days: 17
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -269,12 +269,12 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 9
+    failed_days: 10
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 12
+    failed_days: 13
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
