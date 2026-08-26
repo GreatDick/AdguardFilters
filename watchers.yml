@@ -19,7 +19,9 @@ sites:
     initial_domain: https://1vegamovies.tw/?re=vg
     last_known_mirror: new2.vegamovies.futbol
     accept_antibot: true
-    success_since: 2026-08-18 01:32
+    failed_since: 2026-08-26 07:47
+    failed_days: 0
+    potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.cineby.at
     success_since: 2026-08-25 01:32
