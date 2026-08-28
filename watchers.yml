@@ -32,9 +32,7 @@ sites:
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
     last_known_mirror: jmanga.help
-    failed_since: 2026-08-28 10:34
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-28 22:55
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1322.xyz
     success_since: 2026-08-26 19:37
@@ -50,7 +48,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 9
+    failed_days: 10
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -118,9 +116,9 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime153.live
+    last_known_mirror: cimcime154.live
     accept_antibot: true
-    success_since: 2026-08-27 22:24
+    success_since: 2026-08-28 22:55
   MaçtanMaça:
     last_known_mirror: mactanmaca645.sbs
     success_since: 2026-08-20 07:20
@@ -181,13 +179,13 @@ sites:
     failed_days: 26
     potentially_dead: true
   Yavasgir (yavasgir*.live):
-    last_known_mirror: yavasgir135.live
+    last_known_mirror: yavasgir136.live
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-25 13:33
+    success_since: 2026-08-28 22:55
   Dahahizli (dahahizli*.live):
-    last_known_mirror: dahahizli143.live
-    success_since: 2026-08-27 22:24
+    last_known_mirror: dahahizli144.live
+    success_since: 2026-08-28 22:55
   7tv (7tv*.com):
     last_known_mirror: 7tv066.com
     success_since: 2026-07-28 13:36
@@ -202,7 +200,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 29
+    failed_days: 30
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -214,7 +212,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 29
+    failed_days: 30
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -275,15 +273,15 @@ sites:
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
-    last_known_mirror: turkifsalife48.blog
-    success_since: 2026-08-27 22:24
+    last_known_mirror: turkifsalife49.blog
+    success_since: 2026-08-28 22:55
   Porno shop (porno*.shop):
     last_known_mirror: porno28.shop
     failed_since: 2026-08-22 19:09
-    failed_days: 6
+    failed_days: 7
     potentially_dead: true
   Rtally link (rtally.link):
     initial_domain: rtally.xyz
@@ -307,19 +305,17 @@ sites:
     non_pattern_mirror: www.google.com
   Kacakspor (kacakspor*.com):
     last_known_mirror: www.kacakspor4.com
-    failed_since: 2026-08-28 10:34
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-28 22:55
   Lionline HD (lionlinehd*.com):
     last_known_mirror: lionlinehd165.com
     success_since: 2026-08-15 19:08
   Gizlidepo (gizlidepo*.com):
     last_known_mirror: gizlikasa34.com
-    success_since: 2026-08-27 10:22
+    success_since: 2026-08-28 22:55
     heuristic_history:
       - gizlikasa34.com
     pattern_changed: true
-    non_pattern_mirror: keyifdolu.com
+    non_pattern_mirror: gunlukmola.com
   VIPLeague (vipleague.*):
     last_known_mirror: vipleague.vg
     success_since: 2026-08-20 13:22
