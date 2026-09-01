@@ -41,7 +41,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 13
+    failed_days: 14
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -109,9 +109,9 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime154.live
+    last_known_mirror: cimcime155.live
     accept_antibot: true
-    success_since: 2026-08-29 07:12
+    success_since: 2026-09-01 17:24
   MaçtanMaça:
     last_known_mirror: mactanmaca559.sbs
     success_since: 2026-08-30 01:24
@@ -137,11 +137,13 @@ sites:
     force_search_ahead: true
     success_since: 2026-08-27 02:39
   Royaltv:
-    last_known_mirror: royaltv35.com
-    success_since: 2026-08-25 01:32
+    last_known_mirror: royaltv36.com
+    success_since: 2026-09-01 17:24
   SportsBite (sportsbite.*):
     last_known_mirror: sportsbite.org
-    success_since: 2026-08-14 01:36
+    failed_since: 2026-09-01 17:24
+    failed_days: 0
+    potentially_dead: true
   Dizipal (dizipal*.com):
     # Original. Fake used old domain names behind by ~400 domains
     last_known_mirror: dizipal2089.com
@@ -169,7 +171,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 29
+    failed_days: 30
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -177,8 +179,8 @@ sites:
     force_search_ahead: true
     success_since: 2026-07-25 13:33
   Dahahizli (dahahizli*.live):
-    last_known_mirror: dahahizli144.live
-    success_since: 2026-08-28 17:04
+    last_known_mirror: dahahizli145.live
+    success_since: 2026-09-01 17:24
   7tv (7tv*.com):
     last_known_mirror: 7tv066.com
     success_since: 2026-07-28 13:36
@@ -362,5 +364,7 @@ sites:
   MovieBox (officialmoviebox.*):
     # initial_domain: themoviebox.org
     last_known_mirror: officialmoviebox.com
+    success_since: 2026-09-01 17:24
   gunlukmola.com:
     last_known_mirror: gunlukmola.com
+    success_since: 2026-09-01 17:24
