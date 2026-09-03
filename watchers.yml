@@ -41,7 +41,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 15
+    failed_days: 16
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -171,7 +171,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 31
+    failed_days: 32
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir136.live
@@ -291,7 +291,7 @@ sites:
   Taraftarium24 BJK (taraftarium24bjk*.com):
     last_known_mirror: taraftarium24bjk14.com
     failed_since: 2026-09-02 13:13
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Bahisligatv (bahisligatv*.com):
     last_known_mirror: bahisligatv3.com
@@ -339,7 +339,9 @@ sites:
     success_since: 2026-08-21 13:21
   MLBBox Streams (mlbbox.*):
     last_known_mirror: mlbbox.me
-    success_since: 2026-08-21 13:21
+    failed_since: 2026-09-03 16:58
+    failed_days: 0
+    potentially_dead: true
   F1Box Streams (f1box.*):
     last_known_mirror: f1box.cc
     success_since: 2026-08-25 01:32
