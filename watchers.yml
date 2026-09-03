@@ -171,7 +171,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 31
+    failed_days: 32
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir136.live
@@ -330,7 +330,9 @@ sites:
     success_since: 2026-08-21 13:21
   Pelitcanlitv (pelitcanlitv*.com):
     last_known_mirror: pelitcanlitv.com
-    success_since: 2026-08-21 13:21
+    failed_since: 2026-09-03 11:59
+    failed_days: 0
+    potentially_dead: true
   MMA Box (mmabox.*):
     last_known_mirror: mmabox.me
     success_since: 2026-08-21 13:21
