@@ -47,7 +47,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 28
+    failed_days: 29
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -392,5 +392,7 @@ sites:
     success_since: 2026-09-14 13:14
   Macbox TV (macboxtv*.xyz):
     last_known_mirror: macboxtv29.xyz
+    success_since: 2026-09-16 17:31
   Taraftarium24 (taraftarium1**.*):
     last_known_mirror: taraftarium1082.xyz
+    success_since: 2026-09-16 17:31
