@@ -3,7 +3,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 14
+    failed_days: 16
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
@@ -30,8 +30,8 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
-    last_known_mirror: jmanga.cyou
-    success_since: 2026-09-14 07:23
+    last_known_mirror: jmanga.actor
+    success_since: 2026-09-18 21:27
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1322.xyz
     success_since: 2026-08-26 19:37
@@ -47,7 +47,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 29
+    failed_days: 31
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -148,7 +148,9 @@ sites:
   SportsBite (sportsbite.*):
     last_known_mirror: sportsbite.org
     accept_antibot: true
-    success_since: 2026-09-07 07:22
+    failed_since: 2026-09-18 21:27
+    failed_days: 0
+    potentially_dead: true
   Dizipal (dizipal*.com):
     # Original. Fake used old domain names behind by ~400 domains
     last_known_mirror: dizipal2089.com
@@ -194,7 +196,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 49
+    failed_days: 51
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -206,7 +208,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 49
+    failed_days: 51
     potentially_dead: true
   Bayconti TV (baycontitv*.com):
     last_known_mirror: baycontitv14.com
@@ -229,9 +231,7 @@ sites:
     force_search_ahead: true
     probe_text:
       - GalyaBet TV
-    failed_since: 2026-09-17 13:13
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-09-18 21:27
   Mahsunsports (mahsunsports*.xyz):
     last_known_mirror: mahsunsports80.xyz
     force_search_ahead: true
@@ -244,7 +244,11 @@ sites:
     success_since: 2026-08-07 13:30
   Kralsports HD (kralsportshd*.xyz):
     last_known_mirror: kralsportshd5.xyz
-    success_since: 2026-09-04 13:13
+    success_since: 2026-09-18 21:27
+    heuristic_history:
+      - kralsportshd5.xyz
+    pattern_changed: true
+    non_pattern_mirror: kralbet.com
   KickAssAnime (kaa.*):
     # initial_domain: kaa.to
     last_known_mirror: kaa.lt
@@ -266,7 +270,7 @@ sites:
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle732.top
     failed_since: 2026-08-07 19:23
-    failed_days: 41
+    failed_days: 43
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife56.lat
@@ -343,8 +347,8 @@ sites:
     success_since: 2026-09-01 13:14
   gunlukmola.com:
     initial_domain: gunlukmola.com
-    last_known_mirror: sedefoda.com
-    success_since: 2026-09-17 01:24
+    last_known_mirror: afyonakhaber.com
+    success_since: 2026-09-18 21:27
   Bahiso TV (bahisotv*.com):
     last_known_mirror: bahisotv36.com
     success_since: 2026-09-08 13:14
