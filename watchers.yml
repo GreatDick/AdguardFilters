@@ -133,10 +133,10 @@ sites:
     force_search_ahead: true
     success_since: 2026-08-28 17:04
   PatronLive / Patronspor (patronlive*.cfd):
-    last_known_mirror: patronlive52.cfd
+    last_known_mirror: patronlive53.cfd
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-08-28 10:34
+    success_since: 2026-09-24 12:35
   Inattvizle:
     initial_domain: inatgiris.com
     last_known_mirror: www.inattvizle488.top
@@ -224,8 +224,8 @@ sites:
     last_known_mirror: taraftarium24canlimacyayini.online
     success_since: 2026-08-06 01:37
   Patron Futbol (patronfutbol*.cfd):
-    last_known_mirror: patronfutbol59.cfd
-    success_since: 2026-09-08 01:23
+    last_known_mirror: patronfutbol60.cfd
+    success_since: 2026-09-24 12:35
   Macvardi (macvardi*.com):
     last_known_mirror: macvardi282.com
     success_since: 2026-09-14 01:29
@@ -370,8 +370,8 @@ sites:
     last_known_mirror: harbitv8.live
     success_since: 2026-09-23 01:24
   Restizle (restizle*.com):
-    last_known_mirror: restizle857.com
-    success_since: 2026-09-09 19:10
+    last_known_mirror: restizle858.com
+    success_since: 2026-09-24 12:35
   BovTV (bovtv*.com):
     last_known_mirror: bovtv40.com
     success_since: 2026-09-22 13:14
